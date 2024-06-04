@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      .main-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        border-color: gold;
+        border-width: 4px;
+        border-style: solid;
+        gap: 30px;
+      }
+
+      .color-block {
+        flex: 1 1 200px;
+        aspect-ratio: 1/1;
+      }
+
+      #red-block {
+        background-color: red;
+      }
+
+      #green-block {
+        background-color: green;
+      }
+
+      #orange-block {
+        background-color: orange;
+      }
+
+      #blue-block {
+        background-color: blue;
+      }
+
+      #gold-block {
+        background-color: gold;
+      }
+
+      #pink-block {
+        background-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="red-block" class="color-block">Red</div>
+      <div id="green-block" class="color-block">Green</div>
+      <div id="orange-block" class="color-block">Orange</div>
+      <div id="blue-block" class="color-block">Blue</div>
+      <div id="gold-block" class="color-block">Gold</div>
+      <div id="pink-block" class="color-block">Pink</div>
+    </div>
+  </body>
+</html>
