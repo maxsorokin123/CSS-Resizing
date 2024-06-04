@@ -19,7 +19,8 @@
       }
 
       .color-block {
-        flex: 1 1 200px;
+        /* flex-basis: 15%; */
+        flex: 0 1 15%;
         aspect-ratio: 1/1;
       }
 
@@ -45,6 +46,19 @@
 
       #pink-block {
         background-color: purple;
+      }
+
+      @media (max-width: 850px) {
+        #green-block,
+        #blue-block,
+        #pink-block {
+          display: none;
+        }
+        .color-block {
+          /* flex-basis: 15%; */
+          flex: 0 1 30%;
+          aspect-ratio: 1/1;
+        }
       }
     </style>
   </head>
